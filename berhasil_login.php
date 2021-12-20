@@ -23,9 +23,8 @@ if (!isset($_SESSION['username'])) {
         <form action="" method="POST" class="login-email">
             <?php echo "<h1>Selamat Datang, " . $_SESSION['username'] ."!". "</h1>"; ?>
              
-            <div class="input-group">
-            <a href="Kalkulator.php" class="btn">kalkulator</a>    
-            <a href="logout.php" class="btn">Logout</a>
+            <div class="input-group>
+                <a href="logout.php" class="btn">Logout</a>
             </div>
         </form>
     </div>
